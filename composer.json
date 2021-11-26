@@ -1,0 +1,23 @@
+{
+  "name": "andileong/php-journey",
+  "description": "A simple php framework",
+  "require": {
+    "php": "^8.0",
+    "symfony/var-dumper": "^5.3",
+    "nesbot/carbon": "^2.16",
+    "andileong/collection": "^0.1.0"
+  },
+
+
+  "autoload": {
+    "files": [
+      "Core/Helpers.php"
+    ],
+    "psr-4": {
+      "App\\": "App/",
+      "Core\\": "Core/"
+    }
+  }
+
+
+}
